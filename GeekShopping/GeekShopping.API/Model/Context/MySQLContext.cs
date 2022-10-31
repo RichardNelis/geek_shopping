@@ -1,13 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Reflection.Emit;
 
-namespace GeekShopping.ProductAPI.Model.Context
+namespace GeekShopping.API.Model.Context
 {
     public class MySQLContext : DbContext
     {
         public MySQLContext() { }
 
         public MySQLContext(DbContextOptions<MySQLContext> options) : base(options) { }
-
         public DbSet<Product> Products { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -1,9 +1,9 @@
-﻿using GeekShopping.ProductAPI.Data.ValueObjects;
-using GeekShopping.ProductAPI.Repository;
+﻿using GeekShopping.API.Data.ValueObjects;
+using GeekShopping.API.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GeekShopping.ProductAPI.Controllers
+namespace GeekShopping.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

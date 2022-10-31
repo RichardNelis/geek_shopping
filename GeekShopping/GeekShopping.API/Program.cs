@@ -1,7 +1,7 @@
 using AutoMapper;
-using GeekShopping.ProductAPI.Config;
-using GeekShopping.ProductAPI.Model.Context;
-using GeekShopping.ProductAPI.Repository;
+using GeekShopping.API.Config;
+using GeekShopping.API.Model.Context;
+using GeekShopping.API.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

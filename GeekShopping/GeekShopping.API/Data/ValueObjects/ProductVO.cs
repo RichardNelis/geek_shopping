@@ -1,7 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-
-namespace GeekShopping.ProductAPI.Data.ValueObjects
+﻿namespace GeekShopping.API.Data.ValueObjects
 {
     public class ProductVO
     {
